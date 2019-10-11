@@ -1,0 +1,454 @@
+body {
+    margin: 0px;
+    font-family: questrial, sans-serif;
+}
+.ruser-con {
+    display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+}
+.signup-con {
+    padding-bottom: 10px;
+    background-color: #fff;
+    height: 80%;
+    width: 70%;
+    border: 3px solid rgba(153, 153, 151, 0.4);
+    border-radius: 15px;
+    display: flex;
+    margin: 55px 0px;
+}
+.signup-c1 {
+    /* border: 2px solid black; */
+    width: 50%;
+    margin-top: 40px;
+}
+.signup-c2 {
+    /* border: 2px solid black; */
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.headStyle {
+    color: #000000;
+    font-size: 30px;
+    font-family: questrial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.headStyle1 {
+    margin-bottom: 10px !important;
+    color: #000000;
+    font-size: 30px;
+    font-family: questrial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.headp {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    text-align: center;
+    border-bottom: 0.4px solid #0000008a;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.headpSpan {
+    position: relative;
+    top: 8px;
+    z-index: 20;
+    background-color: #fff;
+    padding: 0px 10px;
+}
+.form {
+    padding: 30px 60px 40px 60px;
+}
+.form2 {
+    padding-top: 15px;
+}
+.loginCon {
+    width: 100%;
+}
+.loadercon {
+    height: 60px;
+}
+.registerOpt {
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+    padding-top: 5px;
+    color: #0000008a;
+}
+.navBar {
+    display: flex;
+    margin: 20px 45px;
+    align-items: flex-end;
+}
+.navImg {
+    width: 100%;
+    height: auto;
+}
+.navImgCon {
+    width: 15%;
+}
+.loginDiv {
+    margin-left: auto;
+}
+.pgNaviDiv {
+    margin-left: 15px;
+}
+.drawerCon {
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+}
+.loginDivMob {
+    display: none;
+}
+.divider1 {
+    display: none;
+}
+.paraText {
+    font-size: 20px;
+    color: #414141;
+}
+.paraText1 {
+    font-size: 16px;
+}
+.headText {
+    color: #414141;
+    font-weight: bold;
+    font-size: 40px;
+}
+.bh1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+.bh3 {
+    text-align: center;
+    font-weight: 100;
+    margin-top: 0px;
+}
+.searchBox {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #919291;
+    border-radius: 90px;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    box-shadow: -2px 2px 5px #414141;
+}
+.searchItems {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #c9c9c8;
+    padding: 30px 30px 20px 30px;
+    position: relative;
+    bottom: 25px;
+    border-top: none;
+    padding-bottom: 20px;
+}
+.bd1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+}
+.bd1-1 {
+    width: 50%;
+}
+.bd1-2 {
+    width: 45%;
+    /* height: 300px; */
+}
+.bd2 {
+    display: flex;
+    margin: 70px 70px;
+    color: #9f9f9d;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.bd2-1 {
+    width: 50%;
+}
+.headText1 {
+    color: #9f9f9d;
+    margin-bottom: -10px;
+}
+.bd2-2 {
+    width: 42%;
+}
+.bd5-1 {
+    width: 70%;
+    display: inline-block;
+
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.bd5-2 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 20px #c9c9c8;
+    position: relative;
+    top: 30px;
+    right: 100px;
+}
+.costUl {
+    text-align: left;
+    display: inline-block;
+}
+.bd5 {
+    flex-direction: column;
+}
+.bd5-3 {
+    margin-top: 40px;
+}
+.bd2img {
+    width: 100%;
+}
+.headText2 {
+    font-size: 30px;
+}
+.headText3 {
+    font-size: 20px;
+}
+.tryImg {
+    display: inline;
+}
+.bd5-5 {
+    display: inline-block;
+}
+.bd6 {
+    margin-top: 5px;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    background-color: #f6f6f6;
+    font-size: 15px;
+}
+/* //mobile view */
+@media only screen and (min-width: 2000px) {
+    .bd1-2 {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .bd1 {
+        padding: 30px 50px;
+    }
+    .bd5-2 {
+        width: 250px;
+        height: 250px;
+    }
+}
+/* @media only screen and (max-height: 610px) {
+    .ruser-con {
+        height: auto;
+    }
+} */
+@media only screen and (max-width: 1000px) {
+    .navBar {
+        margin: 20px 20px;
+    }
+    .headText3 {
+        font-size: 16px;
+    }
+    .signup-c2 {
+        display: none;
+    }
+    .signup-c1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .form {
+        padding: 20px 10px 40px 10px;
+    }
+    .signup-con {
+        width: 70%;
+        border: 2px solid rgba(153, 153, 151, 0.4);
+        margin: 20px 0px;
+    }
+    .paraText {
+        font-size: 16px;
+    }
+    .paraText1 {
+        font-size: 13px;
+    }
+    .headText {
+        font-size: 40px;
+    }
+    .bd1 {
+        flex-direction: column;
+        padding: 20px 60px 20px 60px;
+    }
+
+    .bd1-1,
+    .bd1-2 {
+        margin: 0px auto -10px auto;
+        width: 90%;
+    }
+    .bd1-2 {
+        height: auto;
+    }
+    .searchItems {
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .bd2 {
+        flex-direction: column;
+        margin: 30px 70px;
+    }
+    .bd3 {
+        flex-direction: column-reverse;
+    }
+    .bd2-2,
+    .bd2-1,
+    .bd5-h1 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bd2-1,
+    .bd1-2 {
+        margin-top: -10px;
+    }
+    .bd3-2 {
+        margin-bottom: 20px;
+    }
+    .bd5-1 {
+        margin-top: 30px;
+    }
+    .bd5-1 {
+        width: 100%;
+    }
+    .bd5-2 {
+        width: 300px;
+        height: 300px;
+        position: static;
+        margin: 40px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .bd6 {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .form {
+        padding: 20px 10px 40px 10px;
+    }
+    .signup-con {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .navImgCon {
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .navImgCon {
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .loginDiv {
+        display: none;
+    }
+    .pgNaviDiv {
+        display: none;
+    }
+    .navImgCon {
+        width: 50%;
+        min-width: 150px;
+        margin-top: 0px;
+    }
+    .loginDivMob {
+        display: inline-block;
+        margin-left: auto;
+    }
+    .navBar {
+        margin: 16px 30px 8px 30px;
+    }
+    .divider1 {
+        display: block;
+    }
+    .headText {
+        font-size: 30px;
+    }
+    .headText2 {
+        font-size: 24px;
+        margin-bottom: -20px;
+    }
+    .bh1 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .drawerCon {
+        width: 150px;
+        padding: 20px 20px 20px 20px;
+    }
+    .loginDivMob {
+        position: relative;
+        top: 10px;
+    }
+    .paraText {
+        font-size: 14px;
+    }
+    .paraText1 {
+        font-size: 12px;
+    }
+    .headText {
+        font-size: 20px;
+    }
+    .headText2 {
+        font-size: 16px;
+    }
+    .bd1 {
+        flex-direction: column;
+        padding: 20px 20px 20px 20px;
+    }
+    .bd1-1,
+    .bd1-2 {
+        margin: 0px auto -10px auto;
+        width: 95%;
+    }
+    .bd2-2,
+    .bd2-1,
+    .bd5-h1 {
+        width: 95%;
+    }
+    .bd2 {
+        margin: 30px 30px;
+    }
+    .bd5-1 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .bd5-3 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .headText3 {
+        font-size: 14px;
+    }
+    .bd5-2 {
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+    }
+    .bd6 {
+        font-size: 8px;
+    }
+}
